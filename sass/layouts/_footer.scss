@@ -21,6 +21,10 @@
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    &:hover,
+    &:focus{
+    color: var(--primary-link-color);
+}
 }
 .footer-text-adress{
     font-style: normal;
@@ -28,7 +32,10 @@
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-header-color);
-    
+    &:hover,
+    &:focus{
+    color: var(--primary-link-color);
+}   
 }
 .footer-contacts-mail{
     margin-top: 9px;
@@ -38,16 +45,6 @@
 .footer-contacts:focus {
     color: var(--primary-link-color);
 }
-.footer-text:hover,
-.footer-text:focus{
-    color: var(--primary-link-color);
-}
-.footer-text-adress:hover,
-.footer-text-adress:focus{
-    color: var(--primary-link-color);
-}
-
-
 .footer-soc-list{
     display: flex;
     align-items: baseline;
@@ -69,29 +66,25 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
 }
 .footer-soc-link:hover .footer-soc-icons{
     color: var(--primary-header-color);
     background-color: #2196F3;
 }
-.footer-soc-link:hover,
-.footer-soc-link:focus{
-    color: #FFFFFF;
-}
+
 .footer-soc-icons{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-icons{
     fill: currentColor;
 }
-.footer-soc-link:hover,
-.footer-soc-link:focus{
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
 .footer-box{
     display: inline-block;
-   
 }
 .footer-soc-box{
     display: flex;
