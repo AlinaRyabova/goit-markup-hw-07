@@ -755,6 +755,16 @@ img {
   color: var(--primary-link-color);
 }
 
+.footer-text:hover,
+.footer-text:focus {
+  color: var(--primary-link-color);
+}
+
+.footer-text-adress:hover,
+.footer-text-adress:focus {
+  color: var(--primary-link-color);
+}
+
 .footer-soc-list {
   display: -webkit-box;
   display: -ms-flexbox;

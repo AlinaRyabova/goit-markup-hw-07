@@ -38,9 +38,16 @@
 .footer-contacts:focus {
     color: var(--primary-link-color);
 }
-.footer-contacts-list{
-    
+.footer-text:hover,
+.footer-text:focus{
+    color: var(--primary-link-color);
 }
+.footer-text-adress:hover,
+.footer-text-adress:focus{
+    color: var(--primary-link-color);
+}
+
+
 .footer-soc-list{
     display: flex;
     align-items: baseline;
