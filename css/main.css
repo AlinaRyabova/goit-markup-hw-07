@@ -191,22 +191,11 @@ img {
   border-radius: 2px;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  background-color: var(--primary-link-color);
-  color: #F5F4FA;
-  cursor: pointer;
-}
-
 .portfolio-btn-link {
   list-style-type: none;
   font-family: inherit;
-}
-
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  display: inline-block;
+  min-width: 73px;
 }
 
 .portfolio {
@@ -230,6 +219,15 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-btn:hover, .portfolio-btn:focus {
+  background-color: var(--primary-link-color);
+  color: #F5F4FA;
+  cursor: pointer;
+}
+.portfolio-btn:hover, .portfolio-btn:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-btn-card {
@@ -318,25 +316,16 @@ img {
   border-bottom: 1px solid #EEEEEE;
   padding: 20px 24px;
 }
-
-.portfolio-btn-link {
-  display: inline-block;
-  min-width: 73px;
+.content-portfolio:hover, .content-portfolio:focus {
+  fill: #FFFFFF;
 }
 
 .portfolio-link {
   display: block;
 }
-
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-link:hover, .portfolio-link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.content-portfolio:hover,
-.content-portfolio:focus {
-  fill: #FFFFFF;
 }
 
 .main-cap {
