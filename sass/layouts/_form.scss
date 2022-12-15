@@ -1,4 +1,4 @@
-.form-title{
+.form__title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -9,7 +9,7 @@
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.contact-form-item{
+.contact__form__item{
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -19,22 +19,22 @@
     margin-right: 12px;
     padding: 15px;
 }
-.contact-form{
+.contact__form{
     display: flex;
 }
-.contact-input:hover,
-.contact-input:focus{
+.contact__input:hover,
+.contact__input:focus{
     border-color: #2196F3;
 }
-.contact-input{
+.contact__input{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn-icon{
+.form__btn__icon{
     fill: #FFFFFF;
     margin-left: 10px;
 }
-.form-btn{
+.form__btn{
     font-family: inherit;
     font-size: 16px;
     line-height: 1.88;

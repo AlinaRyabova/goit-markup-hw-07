@@ -1,4 +1,4 @@
-.box-list-items{
+.box__list__items{
     list-style-type: none; 
     display: block;
     flex-direction: row;
@@ -8,15 +8,15 @@
     background: var(--primary-header-color);
     padding-top: 0px;
 }
-.box-list{
+.box__list{
     display: flex;
 }
 
-.box-list-items:not(:last-child){
+.box__list__items:not(:last-child){
     margin-right: 30px;
 
 }
-.box-title {
+.box__title {
     font-style: normal;
     font-size: 36px;
     line-height: 1.16;
@@ -24,10 +24,10 @@
     color: var(--second-header-color);
     margin-bottom: 50px;
 }
-.box-thumb{
+.box__thumb{
     position: relative;
 }
-.box-thumb-text{
+.box__thumb__text{
     position: absolute;
     bottom: 0;
     font-family: 'Roboto';
@@ -42,7 +42,7 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
     color: #FFFFFF;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
