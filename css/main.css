@@ -191,7 +191,7 @@ img {
   border-radius: 2px;
 }
 
-.portfolio-btn-link {
+.portfolio__btn__link {
   list-style-type: none;
   font-family: inherit;
   display: inline-block;
@@ -202,7 +202,7 @@ img {
   background: #FFFFFF;
 }
 
-.portfolio-btn {
+.portfolio__btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -220,17 +220,17 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-btn:hover, .portfolio-btn:focus {
+.portfolio__btn:hover, .portfolio__btn:focus {
   background-color: var(--primary-link-color);
   color: #F5F4FA;
   cursor: pointer;
 }
-.portfolio-btn:hover, .portfolio-btn:focus {
+.portfolio__btn:hover, .portfolio__btn:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-btn-card {
+.portfolio__btn__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,11 +242,11 @@ img {
   gap: 8px;
 }
 
-.portfolio-project-list {
+.portfolio__project__list {
   color: var(--second-header-color);
 }
 
-.portfolio-title {
+.portfolio__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -254,14 +254,14 @@ img {
   margin-bottom: 4px;
 }
 
-.portfolio-pre-title {
+.portfolio__pre__title {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
-.portfolio-project-list {
+.portfolio__project__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,22 +274,22 @@ img {
   gap: 30px;
 }
 
-.portfolio-list {
+.portfolio__list {
   -ms-flex-preferred-size: calc((100% - 60px) / 3);
       flex-basis: calc((100% - 60px) / 3);
 }
 
-.portfolio-list:hover .portfolio-cover-text {
+.portfolio__list :hover .portfolio__cover__text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.portfolio-thumb {
+.portfolio__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-cover-text {
+.portfolio__cover__text {
   position: absolute;
   top: 0;
   color: #FFFFFF;
@@ -310,20 +310,20 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.content-portfolio {
+.content__portfolio {
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   padding: 20px 24px;
 }
-.content-portfolio:hover, .content-portfolio:focus {
+.content__portfolio:hover, .content__portfolio:focus {
   fill: #FFFFFF;
 }
 
-.portfolio-link {
+.portfolio__link {
   display: block;
 }
-.portfolio-link:hover, .portfolio-link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -378,7 +378,7 @@ img {
   cursor: pointer;
 }
 
-.feature-list-items {
+.feature__list__items {
   list-style-type: none;
 }
 
@@ -387,7 +387,7 @@ img {
   background: var(--primary-header-color);
 }
 
-.feature-list {
+.feature__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,7 +396,7 @@ img {
   gap: 30px;
 }
 
-.feature-title {
+.feature__title {
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
@@ -406,7 +406,7 @@ img {
   margin-bottom: 10px;
 }
 
-.feature-title-text {
+.feature__title__text {
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
@@ -414,7 +414,7 @@ img {
   margin-top: 0px;
 }
 
-.feature-icons {
+.feature__icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,7 +428,7 @@ img {
   background-position: center;
 }
 
-.feature-cont-icons {
+.feature__cont__icons {
   height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
